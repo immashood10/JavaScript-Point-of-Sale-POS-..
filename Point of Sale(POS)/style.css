@@ -1,0 +1,98 @@
+body{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+html{
+    height: 800px;
+    width: 100%;
+}
+#ID_main_container{
+    height: 100%;
+}
+#ID_row_main{
+    height: 100%;
+}
+#ID_column_main_1{
+   background-color: rgb(5, 133, 238);  
+}
+#ID_column_main_2{
+    background-color: rgb(5, 60, 105);  
+  } 
+  #ID_container_row{
+    height:auto;
+  } 
+  #ID_container_column div{
+    height: 150px;
+    border-radius: 10px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .3s;
+    color: white;
+  }
+  #ID_container_column div:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    color: rgb(236, 13, 13);
+  }
+  .heading h3{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+ }
+ #ID_orders div{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  background-color:rgb(47, 48, 49);
+  height: auto; 
+ border: none 2px solid;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding: 8px;
+  color: wheat;
+}
+.total{
+  text-align: center;
+  background-color: rgb(8, 8, 8);
+  color: whitesmoke;
+  padding: 8px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none 2px solid;
+  border-radius: 5px;  
+}
+    .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid none ;
+    border-radius: 10px;
+    color: black;
+    padding: 5px 15px;
+    border: none;
+  }
+  .btn-hover {
+    color: #fff;
+    cursor: pointer;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+   border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-hover:hover {
+    background-position: 100% 0;
+}
+.btn-hover.color-7 {
+    background-image: linear-gradient(to right, #010a0e, #00050c, #070808, #828488);
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.75);
+}
